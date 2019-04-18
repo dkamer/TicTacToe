@@ -4,6 +4,11 @@ theBoard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
             'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
             'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
 
+print ('The options for the moves are:')
+print ('top-L | top-M | top-R')
+print ('mid-L | mid-M | mid-R')
+print ('low-L | low-M | low-R')
+print ('')
 
 def ComputerPlace(answerNumber):
     if answerNumber == 1:
